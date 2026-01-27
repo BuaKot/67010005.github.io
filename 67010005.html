@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>67010005 - Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-circles">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <div class="card" id="profile-card">
+        <div class="image-container">
+            <img src="image/67010005.jpg" alt="Kotchamon" class="profile-img">
+        </div>
+        
+        <div class="info">
+            <h1 id="name">Kotchamon Ruangkiattikul</h1>
+            <p class="student-id">Student ID: <span id="id-number">67010005</span></p>
+            <hr>
+            <p class="bio">I'm a developer passionate about coding, building web applications, AI, and Data Analysis.</p>
+        </div>
+
+        <button id="greet-btn">Say Hello!</button>
+        <div id="message-box" class="hidden">
+            <p id="display-message"></p>
+        </div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
